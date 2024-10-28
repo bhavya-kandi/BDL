@@ -1,0 +1,16 @@
+---
+title: "My First R Markdown Report"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Introduction
+
+This is an R Markdown document. You can write regular text, and embed R code.
+
+## Summary of the mtcars dataset
+
+```{r}
+# Display summary of the mtcars dataset
+summary(mtcars)
